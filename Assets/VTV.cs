@@ -33,10 +33,26 @@ public class VTV : MonoBehaviour
         {
             Debug.Log(" El vencimiento VTV no es valido, VTV no aprobada");
             return;
-        } else ( 5 < HCppm){
-            Debug.Log("Los HC ppm deben de ser mayores a 5, VTV no aprobada");
+        }
+        else if (5 < HCppm  && 100 >  HCppm) {
+            Debug.Log("Los HC ppm deben de ser mayores a 5 y menores a 100, VTV no aprobada");
             return;
         }
+        else
+        {
+            Debug.Log(" ");
+        }
+
+        if ( KilometrosRecorridos < 1000)
+        {
+            Debug.Log(" " );
+        } 
+        else if ( KilometrosRecorridos > 1000)
+        {
+            Debug.Log(" ");
+        }
+
+
             
           
        
