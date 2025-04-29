@@ -40,7 +40,7 @@ public class VTV : MonoBehaviour
         }
         else
         {
-            Debug.Log(" ");
+            Debug.Log(" VTV aprobado ");
         }
         
 
