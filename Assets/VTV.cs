@@ -46,11 +46,11 @@ public class VTV : MonoBehaviour
 
         if ( KilometrosRecorridos / (2025 - ModeloDeVehiculo)  < 1000)
         {
-            Debug.Log(" " );
+            Debug.Log(" VTV otorgada por 2 años " );
         } 
         else if (KilometrosRecorridos / (2025 - ModeloDeVehiculo) > 1000)
         {
-            Debug.Log(" ");
+            Debug.Log("VTV otorgada por 1 año ");
         }
 
 
